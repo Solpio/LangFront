@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9307c52-271a-4e6e-86b0-4411456d49df" name="Changes" comment="feat: add main page, book page, auth page and etc.">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LangFront.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/book.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/user.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/userWords.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/words.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/Book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/HeaderBook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/mainPic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/mainPicDark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Chapter/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GroupCard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GroupCard/skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderIcon/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTools/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Link/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainCard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainSVG/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RegistrationForm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sound/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Star/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Theme/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Title/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Form.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/divideWords.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Books/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Group/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/request.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/auth.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/books.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/userWords.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/words.store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/vendors/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/auth.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/books.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/user.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/userWord.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/word.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EyyUjAyTBwIl2hzrKI7dO8YLQ7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/gitlangclone/LangFront/src/components/Header&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\projects\\gitlangclone\\LangFront\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\projects\\gitlangclone\\LangFront\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\gitlangclone\LangFront\src\components\Header" />
+      <recent name="D:\projects\gitlangclone\LangFront\src\components\Footer" />
+      <recent name="D:\projects\gitlangclone\LangFront\src\pages\NotFound" />
+      <recent name="D:\projects\gitlangclone\LangFront\src\pages\Auth" />
+      <recent name="D:\projects\gitlangclone\LangFront\src\pages\BookPage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\gitlangclone\LangFront\src\helpers" />
+      <recent name="D:\projects\gitlangclone\LangFront" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9307c52-271a-4e6e-86b0-4411456d49df" name="Changes" comment="" />
+      <created>1663582135723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663582135723</updated>
+      <workItem from="1663582142481" duration="718000" />
+      <workItem from="1663582890699" duration="8452000" />
+      <workItem from="1663648972467" duration="1321000" />
+      <workItem from="1663650334406" duration="13044000" />
+      <workItem from="1663678485247" duration="2289000" />
+      <workItem from="1663756629449" duration="8248000" />
+      <workItem from="1663830331025" duration="14070000" />
+      <workItem from="1663916364019" duration="9197000" />
+      <workItem from="1664007483971" duration="4018000" />
+      <workItem from="1664094745756" duration="6559000" />
+      <workItem from="1664183614822" duration="8820000" />
+      <workItem from="1664194419376" duration="4655000" />
+      <workItem from="1664276829869" duration="7265000" />
+      <workItem from="1664289417366" duration="3434000" />
+      <workItem from="1664340803932" duration="23806000" />
+      <workItem from="1664445895243" duration="2687000" />
+      <workItem from="1664600540628" duration="2997000" />
+      <workItem from="1664659262511" duration="14462000" />
+      <workItem from="1664751616460" duration="536000" />
+      <workItem from="1664752168105" duration="693000" />
+      <workItem from="1664783129735" duration="15798000" />
+      <workItem from="1664870859892" duration="5983000" />
+      <workItem from="1664955603405" duration="14523000" />
+      <workItem from="1664972632291" duration="1534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: add main page, book page, auth page and etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add main page, book page, auth page and etc." />
+  </component>
+</project>
