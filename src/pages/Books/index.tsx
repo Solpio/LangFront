@@ -10,7 +10,7 @@ import {
 } from '../../components/Title'
 
 const Wrapper = styled.div`
-  padding-top: 69px;
+  padding-top: 10px;
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
@@ -18,6 +18,8 @@ const Wrapper = styled.div`
 `
 
 const ChaptersWrapper = styled.div`
+  max-width: 600px;
+  margin: 10px auto 0;
   display: grid;
   grid-template-columns: 1fr;
 `
