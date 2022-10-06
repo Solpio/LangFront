@@ -37,8 +37,10 @@ const RegistrationWrapper = styled.div`
 `
 
 const Image = styled.img`
+  box-sizing: border-box;
   max-width: 662px;
   max-height: 399px;
+  padding: 0 20px;
   width: 100%;
   height: 100%;
 `
