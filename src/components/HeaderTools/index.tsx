@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 function HeaderTools() {
   return (
     <Wrapper>
-      <Theme></Theme>
+      {/*<Theme></Theme>*/}
       <Profile></Profile>
     </Wrapper>
   )
