@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import styled from 'styled-components'
-import MainSvg from '../MainSVG'
+import MainSvg from '../MainSVG/book.svg'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -27,15 +27,18 @@ const Text = styled.p`
   text-align: center;
   font-size: 1.6rem;
 `
+interface IMainCardProps {
+  svg: FunctionComponent
+  text: string
+  title: string
+}
 
-function MainCard() {
+function MainCard({ text, svg, title }: IMainCardProps) {
   return (
     <Wrapper>
-      <Title>Text</Title>
-      <ImgContainer>
-        <MainSvg></MainSvg>
-      </ImgContainer>
-      <Text>4000 новых слов</Text>
+      <Title>{title}</Title>
+      <ImgContainer>{svg({})}</ImgContainer>
+      <Text>{text}</Text>
     </Wrapper>
   )
 }

@@ -4,6 +4,10 @@ import Logo from '../../components/Logo'
 import MainPic from '../../assets/img/mainPic.png'
 import Button from '../../components/Button'
 import MainCard from '../../components/MainCard'
+import MainSvg from '../../components/MainSVG/book.svg'
+import BrainSvg from '../../components/MainSVG/brain.svg'
+import StatisticSvg from '../../components/MainSVG/statistic.svg'
+import PeopleSvg from '../../components/MainSVG/people.svg'
 const Wrapper = styled.div``
 
 const InnerWrapper = styled.div`
@@ -97,16 +101,28 @@ function MainPage() {
         </TextUnderContainer>
         <DescriptionImagesContainer>
           <CardWrapper>
-            <MainCard></MainCard>
-            <MainCard></MainCard>
+            <MainCard
+              title={'Изучай'}
+              svg={MainSvg}
+              text={'4000 новых слов'}
+            ></MainCard>
+            <MainCard
+              title={'Запоминай играя'}
+              svg={BrainSvg}
+              text={'Скучно учить? Заходи играть'}
+            ></MainCard>
           </CardWrapper>
           <CardWrapper>
-            <MainCard></MainCard>
-            <MainCard></MainCard>
-          </CardWrapper>
-          <CardWrapper>
-            <MainCard></MainCard>
-            <MainCard></MainCard>
+            <MainCard
+              title={'Отслеживай прогресс'}
+              text={'Полный анализ изученных слов по каждому дню'}
+              svg={StatisticSvg}
+            ></MainCard>
+            <MainCard
+              title={'Регистрируйся и приводи друзей'}
+              text={'Вместе веселее'}
+              svg={PeopleSvg}
+            ></MainCard>
           </CardWrapper>
         </DescriptionImagesContainer>
         <AfterImagesWrapper>
