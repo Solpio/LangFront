@@ -11,7 +11,8 @@ const Title = styled.h1<ILogo>`
   font-style: italic;
   font-weight: 500;
   font-size: ${(props) => (props.isSingle ? '2.5rem' : ' 9rem')};
-  ${(props) => (props.isSingle ? 'line-height: 2rem' : null)}
+  ${(props) =>
+    props.isSingle ? 'line-height: 2rem;' + 'min-width: 90px;' : null}
 `
 const UnderTitleText = styled.p`
   text-align: end;
@@ -19,6 +20,9 @@ const UnderTitleText = styled.p`
   font-family: 'Roboto', serif;
   font-style: italic;
   font-weight: 300;
+  @media (max-width: 1100px) {
+    text-align: center;
+  }
 `
 
 function Logo({ isSingle }: ILogo) {

@@ -18,18 +18,30 @@ const MainContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 1100px) {
+    flex-direction: column-reverse;
+  }
 `
 const Registration = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  @media (max-width: 1100px) {
+    align-items: center;
+    text-align: center;
+  }
 `
 
 const RegistrationWrapper = styled.div`
   margin-top: 25px;
 `
 
-const Image = styled.img``
+const Image = styled.img`
+  max-width: 662px;
+  max-height: 399px;
+  width: 100%;
+  height: 100%;
+`
 
 const TextUnderContainer = styled.p`
   text-align: center;
@@ -40,11 +52,17 @@ const TextUnderContainer = styled.p`
 const DescriptionImagesContainer = styled.div`
   max-width: 600px;
   margin: 0 auto;
+  @media (max-width: 400px) {
+    max-width: 150px;
+  }
 `
 
 const CardWrapper = styled.div`
   gap: 50px;
   display: flex;
+  @media (max-width: 700px) {
+    gap: 30px;
+  }
   @media (max-width: 400px) {
     flex-direction: column;
   }
